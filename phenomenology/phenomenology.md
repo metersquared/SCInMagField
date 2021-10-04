@@ -48,7 +48,7 @@ run("fluxPlotSquare.m")
 ```
 
 
-![figure_0.eps](phenomenology_images/figure_0.eps)
+![figure_0.png](phenomenology_images/figure_0.png)
 
 
 
@@ -61,7 +61,7 @@ run('fluxPlotHex.m')
 ```
 
 
-![figure_1.eps](phenomenology_images/figure_1.eps)
+![figure_1.png](phenomenology_images/figure_1.png)
 
 
 
@@ -79,7 +79,7 @@ Warning: Class 'Annotate' uses an undocumented syntax to restrict property value
 ```
 
 
-![figure_2.eps](phenomenology_images/figure_2.eps)
+![figure_2.png](phenomenology_images/figure_2.png)
 
   
 ### Free energy
@@ -125,7 +125,7 @@ run("freeEnergyPlot.m")
 ```
 
 
-![figure_3.eps](phenomenology_images/figure_3.eps)
+![figure_3.png](phenomenology_images/figure_3.png)
 
 ### Supercurrent
 
@@ -175,5 +175,5 @@ Warning: Using only the real component of complex data.
 ```
 
 
-![figure_4.eps](phenomenology_images/figure_4.eps)
+![figure_4.png](phenomenology_images/figure_4.png)
 
