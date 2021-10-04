@@ -1,0 +1,9 @@
+partitionNum=50;
+totalLength=2;
+partitionLength=totalLength/partitionNum;
+nLattice=[1:partitionNum];
+[m,n]=meshgrid(nLattice);
+x=m*partitionLength-totalLength/2-0.5;
+y=n*partitionLength-totalLength/2-0.5;
+currentsquare=currentSquare(5,1,1,x,y);
+save('datacurrentsquare.mat','currentsquare');
