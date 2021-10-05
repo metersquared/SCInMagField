@@ -39,7 +39,7 @@ The tight binding Hamiltonian with Peierls substitution can be generated with `n
   
 
 
-Generate eigenvalues across different values of magnetic field `b` in a for-loop for different Hamiltonian with `testRectangular.m`.
+Generate data (`EN200x25.mat`) of eigenvalues across different values of magnetic field `b` in a for-loop for different Hamiltonian with `testRectangular.m`.
 
 
 
