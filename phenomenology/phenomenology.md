@@ -1,6 +1,6 @@
 # Phenomenological calculations
   
-### Flux density
+# Flux density
 
 
 Flux densities are calculated using `fluxdensitySquare(lpd, b, a, x, y)`* *and `fluxdensitySquare(lpd, b, a, x, y)`.
@@ -82,7 +82,7 @@ Warning: Class 'Annotate' uses an undocumented syntax to restrict property value
 ![figure_2.png](phenomenology_images/figure_2.png)
 
   
-### Free energy
+# Free energy
 
 
 Free energy are calculated using `freeEnergyHex(a, b, lpd, N) `and `freeEnergySquare(a, b, lpd, N)`.
@@ -127,7 +127,7 @@ run("freeEnergyPlot.m")
 
 ![figure_3.png](phenomenology_images/figure_3.png)
 
-### Supercurrent
+# Supercurrent
 
 
 Supercurrent are calculated using` currentSquare(lpd, b, a, x, y)`.
