@@ -1,4 +1,4 @@
-# Hodstadter's butterfly
+# Hofstadter's butterfly
   
 ### Tight binding Hamiltonian with magnetic field
 
