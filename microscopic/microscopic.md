@@ -8,13 +8,13 @@ If self-consistency is achieved in the SCOP, one can use the obtained Hamiltonia
 # Temperature dependence
 
 
-See [Self-Consistent Order Parameter](..\selfconsistency\selfconsistency.md).
+See [Self-Consistent Order Parameter](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/selfconsistency.md#temperature-dependence).
 
 
 # Magnetic field dependence
 
 
-Using [`tDependence.m`](..\selfconsistency\tDependence.m), the critical temperature of the order parameter can be calculated. Then by manually inserting the data an a fit is done with [`criticalField(T, H0)`](./criticalField.m).
+Using [`tDependence.m`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/tDependence.m), the critical temperature of the order parameter can be calculated. Then by manually inserting the data an a fit is done with [`criticalField(T, H0)`](https://github.com/metersquared/SCInMagField/blob/main/microscopic/criticalField.m).
 
 
 
@@ -30,7 +30,7 @@ openfig("criticalFieldRelation.fig","visible");
 # SC Order parameter
 
 
-See [Self-Consistent Order Parameter](..\selfconsistency\selfconsistency.md).
+See [Self-Consistent Order Parameter](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/selfconsistency.md#order-parameter-time-series).
 
 
 
