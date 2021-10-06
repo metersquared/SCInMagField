@@ -19,7 +19,7 @@ Using [`tDependence.m`](..\selfconsistency\tDependence.m), the critical temperat
 
 
 
-`Result:`
+Result:
 
 
 
