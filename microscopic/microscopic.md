@@ -59,10 +59,28 @@ run("plotPhaseAngle.m")
 
 ![figure_1.png](microscopic_images/figure_1.png)
 
+
+
+Flux pinning due to impurity:
+
+
+
+```matlab:Code
+run('fluxPinPlot.m')
+```
+
+
+```text:Output
+Warning: Vectorized content might take a long time to create, or it might contain unexpected results. Set 'ContentType' to 'image' for better performance. Click here to not see this message again.
+```
+
+
+![figure_2.png](microscopic_images/figure_2.png)
+
 # Supercurrent
 
 
-The superconducting order parameter can be calculated with` supercurrent(in, eigenE, eigenV)`.
+The superconducting order parameter can be calculated with` `[`supercurrent(in, eigenE, eigenV)`](./supercurrent.m).
 
 
 
@@ -83,7 +101,7 @@ The superconducting order parameter can be calculated with` supercurrent(in, eig
   
 
 
-`supercurrentCompute.m `can be used to collect the necessary data, i.e. variable after finding self-consistent SCOP and initialization parameters.
+[`supercurrentCompute.m`](./supercurrentCompute.m)` `can be used to collect the necessary data, i.e. variable after finding self-consistent SCOP and initialization parameters.
 
 
   
@@ -98,12 +116,12 @@ run('supercurrentPlot.m')
 ```
 
 
-![figure_2.png](microscopic_images/figure_2.png)
+![figure_3.png](microscopic_images/figure_3.png)
 
 # Free Energy
 
 
-The free energy can be calculated with` freeEnergyBCS(in, eigenV, eigenE)`.
+The free energy can be calculated with` `[`freeEnergyBCS(in, eigenV, eigenE)`](./freeEnergyBCS.m).
 
 
 
@@ -124,7 +142,7 @@ The free energy can be calculated with` freeEnergyBCS(in, eigenV, eigenE)`.
   
 
 
-`freeEnergyCompute.m `can be used to calculate free energies of both normal metal and SC, for comparison.
+[`freeEnergyCompute.m`](./freeEnergyCompute.m)` `can be used to calculate free energies of both normal metal and SC, for comparison.
 
 
   
@@ -144,5 +162,5 @@ Warning: Imaginary parts of complex X and/or Y arguments ignored.
 ```
 
 
-![figure_3.png](microscopic_images/figure_3.png)
+![figure_4.png](microscopic_images/figure_4.png)
 

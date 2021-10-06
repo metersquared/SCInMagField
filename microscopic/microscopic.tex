@@ -91,11 +91,27 @@ run("plotPhaseAngle.m")
 \includegraphics[width=\maxwidth{56.196688409433015em}]{figure_1.png}
 \end{center}
 
+\begin{par}
+\begin{flushleft}
+Flux pinning due to impurity:
+\end{flushleft}
+\end{par}
+
+\begin{matlabcode}
+run('fluxPinPlot.m')
+\end{matlabcode}
+\begin{matlaboutput}
+Warning: Vectorized content might take a long time to create, or it might contain unexpected results. Set 'ContentType' to 'image' for better performance. Click here to not see this message again.
+\end{matlaboutput}
+\begin{center}
+\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_2.png}
+\end{center}
+
 \matlabheading{Supercurrent}
 
 \begin{par}
 \begin{flushleft}
-The superconducting order parameter can be calculated with\texttt{ supercurrent(in, eigenE, eigenV)}.
+The superconducting order parameter can be calculated with\texttt{ }\href{./supercurrent.m}{\texttt{supercurrent(in, eigenE, eigenV)}}.
 \end{flushleft}
 \end{par}
 
@@ -121,7 +137,7 @@ The superconducting order parameter can be calculated with\texttt{ supercurrent(
 \vspace{1em}
 \begin{par}
 \begin{flushleft}
-\texttt{supercurrentCompute.m }can be used to collect the necessary data, i.e. variable after finding self-consistent SCOP and initialization parameters.
+\href{./supercurrentCompute.m}{\texttt{supercurrentCompute.m}}\texttt{ }can be used to collect the necessary data, i.e. variable after finding self-consistent SCOP and initialization parameters.
 \end{flushleft}
 \end{par}
 
@@ -137,14 +153,14 @@ Supercurrent of SC in magnetic field:
 run('supercurrentPlot.m')
 \end{matlabcode}
 \begin{center}
-\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_2.png}
+\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_3.png}
 \end{center}
 
 \matlabheading{Free Energy}
 
 \begin{par}
 \begin{flushleft}
-The free energy can be calculated with\texttt{ freeEnergyBCS(in, eigenV, eigenE)}.
+The free energy can be calculated with\texttt{ }\href{./freeEnergyBCS.m}{\texttt{freeEnergyBCS(in, eigenV, eigenE)}}.
 \end{flushleft}
 \end{par}
 
@@ -170,7 +186,7 @@ The free energy can be calculated with\texttt{ freeEnergyBCS(in, eigenV, eigenE)
 \vspace{1em}
 \begin{par}
 \begin{flushleft}
-\texttt{freeEnergyCompute.m }can be used to calculate free energies of both normal metal and SC, for comparison.
+\href{./freeEnergyCompute.m}{\texttt{freeEnergyCompute.m}}\texttt{ }can be used to calculate free energies of both normal metal and SC, for comparison.
 \end{flushleft}
 \end{par}
 
@@ -189,7 +205,7 @@ run('freeEnergyPlot.m')
 Warning: Imaginary parts of complex X and/or Y arguments ignored.
 \end{matlaboutput}
 \begin{center}
-\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_3.png}
+\includegraphics[width=\maxwidth{56.196688409433015em}]{figure_4.png}
 \end{center}
 
 \end{document}
