@@ -14,7 +14,7 @@ See [Self-Consistent Order Parameter](..\selfconsistency\selfconsistency.md).
 # Magnetic field dependence
 
 
-Using [`tDependence.m`](..\selfconsistency\tDependence.m), the critical temperature of the order parameter can be calculated. Then by manually inserting the data an a fit is done with [`criticalField(T, H0)`](./criticalField.m)`.`
+Using [`tDependence.m`](..\selfconsistency\tDependence.m), the critical temperature of the order parameter can be calculated. Then by manually inserting the data an a fit is done with [`criticalField(T, H0)`](./criticalField.m).
 
 
 
@@ -80,7 +80,7 @@ Warning: Vectorized content might take a long time to create, or it might contai
 # Supercurrent
 
 
-The superconducting order parameter can be calculated with` `[`supercurrent(in, eigenE, eigenV)`](./supercurrent.m).
+The superconducting order parameter can be calculated with [`supercurrent(in, eigenE, eigenV)`](./supercurrent.m).
 
 
 
@@ -101,7 +101,7 @@ The superconducting order parameter can be calculated with` `[`supercurrent(in, 
   
 
 
-[`supercurrentCompute.m`](./supercurrentCompute.m)` `can be used to collect the necessary data, i.e. variable after finding self-consistent SCOP and initialization parameters.
+[`supercurrentCompute.m`](./supercurrentCompute.m) can be used to collect the necessary data, i.e. variable after finding self-consistent SCOP and initialization parameters.
 
 
   
@@ -121,7 +121,7 @@ run('supercurrentPlot.m')
 # Free Energy
 
 
-The free energy can be calculated with` `[`freeEnergyBCS(in, eigenV, eigenE)`](./freeEnergyBCS.m).
+The free energy can be calculated with [`freeEnergyBCS(in, eigenV, eigenE)`](./freeEnergyBCS.m).
 
 
 
@@ -142,7 +142,7 @@ The free energy can be calculated with` `[`freeEnergyBCS(in, eigenV, eigenE)`](.
   
 
 
-[`freeEnergyCompute.m`](./freeEnergyCompute.m)` `can be used to calculate free energies of both normal metal and SC, for comparison.
+[`freeEnergyCompute.m`](./freeEnergyCompute.m) can be used to calculate free energies of both normal metal and SC, for comparison.
 
 
   
