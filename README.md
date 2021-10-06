@@ -1,8 +1,8 @@
-# Conventional Superconductors in a Magnetic Field : Code repository
+# Conventional Superconductors in a Magnetic Field
 
-This is a public repository of my bachelor's thesis about conventional superconductivity in a magnetic field.
+This is a public repository of my bachelor's thesis that I did at the University of Leipzig about conventional superconductivity in a magnetic field.
 
-You can read my thesis [here](FinalDraft_BachelorThesis.pdf).
+In my thesis, I tried to evaluate the microscopic BCS theory in real space and compare it to the behavior of conventional superconductors in magnetic field from its phenomenological description. You can read it [here](FinalDraft_BachelorThesis.pdf).
 
 In each folder you will find MATLAB livescripts of the calculations I used for my thesis.
 
