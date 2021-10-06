@@ -3,7 +3,7 @@
 # Flux density
 
 
-Flux densities are calculated using `fluxdensitySquare(lpd, b, a, x, y)`* *and `fluxdensitySquare(lpd, b, a, x, y)`.
+Flux densities are calculated using [`fluxdensitySquare(lpd, b, a, x, y)`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/fluxdensitySquare.m)* *and [`fluxdensityHex(lpd, b, a, x, y)`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/fluxdensityHex.m).
 
 
 
@@ -29,7 +29,7 @@ Flux densities are calculated using `fluxdensitySquare(lpd, b, a, x, y)`* *and `
   
 
 
-`dataHexCode.m `and` dataSquareCode.m `is used to generate flux density data `datahex.mat` and `datasquare.mat` in hexagonal and square lattice respectively.
+[`dataHexCode.m`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/dataHexCode.m) and [`dataSquareCode.m`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/dataSquareCode.m) is used to generate flux density data [`datahex.mat`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/datahex.mat) and [`datasquare.mat`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/datasquare.mat) in hexagonal and square lattice respectively.
 
 
 
@@ -85,7 +85,7 @@ Warning: Class 'Annotate' uses an undocumented syntax to restrict property value
 # Free energy
 
 
-Free energy are calculated using `freeEnergyHex(a, b, lpd, N) `and `freeEnergySquare(a, b, lpd, N)`.
+Free energy are calculated using [`freeEnergyHex(a, b, lpd, N)`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/freeEnergyHex.m) and [`freeEnergySquare(a, b, lpd, N)`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/freeEnergySquare.m).
 
 
 
@@ -111,7 +111,7 @@ Free energy are calculated using `freeEnergyHex(a, b, lpd, N) `and `freeEnergySq
   
 
 
-`freeenergy.m `is used to generate struct for energy of both hexagonal and square lattice in different lattice length `N`.
+[`freeenergy.m`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/freeenergy.m) is used to generate struct for energy of both hexagonal and square lattice in different lattice length `N`.
 
 
 
@@ -130,7 +130,7 @@ run("freeEnergyPlot.m")
 # Supercurrent
 
 
-Supercurrent are calculated using` currentSquare(lpd, b, a, x, y)`.
+Supercurrent are calculated using [`currentSquare(lpd, b, a, x, y)`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/currentSquare.m).
 
 
 
@@ -156,7 +156,7 @@ Supercurrent are calculated using` currentSquare(lpd, b, a, x, y)`.
   
 
 
-`dataCurrentSquareCode.m `is used to generate flux density data `datacurrentsquare.mat` in square lattice.
+[`dataCurrentSquareCode.m`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/dataCurrentSquareCode.m) is used to generate flux density data [`datacurrentsquare.mat`](https://github.com/metersquared/SCInMagField/blob/main/phenomenologic/datacurrentsquare.mat) in square lattice.
 
 
 
