@@ -3,7 +3,7 @@
 # Tight binding Hamiltonian with magnetic field
 
 
-The tight binding Hamiltonian with Peierls substitution can be generated with `normalMetalRectangularCell(in)`.
+The tight binding Hamiltonian with Peierls substitution can be generated with [`normalMetalRectangularCell(in)`](https://github.com/metersquared/SCInMagField/blob/main/hofstadterbutterfly/normalMetalRectangularCell.m).
 
 
 
@@ -40,7 +40,7 @@ The tight binding Hamiltonian with Peierls substitution can be generated with `n
 ## Energy spectrum of normal metals in magnetic field
 
 
-Generate data (`EN200x25.mat`) of eigenvalues across different values of magnetic field `b` in a for-loop for different Hamiltonian with `testRectangular.m`.
+Generate data ([`EN200x25.mat`](https://github.com/metersquared/SCInMagField/blob/main/hofstadterbutterfly/EN200x25.mat)) of eigenvalues across different values of magnetic field `b` in a for-loop for different Hamiltonian with [`testRectangular.m`](https://github.com/metersquared/SCInMagField/blob/main/hofstadterbutterfly/testRectangular.m).
 
 
 
