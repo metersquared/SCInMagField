@@ -3,7 +3,7 @@
 # BCS Hamiltonian with magnetic field
 
 
-The BCS Hamiltonian with Peierls substitution can be generated with `bcsRectangularCell(in)`.
+The BCS Hamiltonian with Peierls substitution can be generated with [`bcsRectangularCell(in)`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/bcsRectangularCell.m).
 
 
 
@@ -45,7 +45,7 @@ The BCS Hamiltonian with Peierls substitution can be generated with `bcsRectangu
 # SC Order Parameter
 
 
-The superconducting order parameter can be calculated with `calcGap(V, T, P, eigenP)`.
+The superconducting order parameter can be calculated with [`calcGap(V, T, P, eigenP)`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/calcGap.m).
 
 
 
@@ -72,7 +72,7 @@ The superconducting order parameter can be calculated with `calcGap(V, T, P, eig
 # Filling
 
 
-The filling can be calculated with `calcN(T, P, eigenP)`.
+The filling can be calculated with [`calcN(T, P, eigenP)`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/calcN.m).
 
 
 
@@ -96,25 +96,25 @@ The filling can be calculated with `calcN(T, P, eigenP)`.
 ## Parameter initialization
 
 
-Initialize parameters in a structure, i.e. with `tDependencePar.m` where  `in` struct is created to a data.
+Initialize parameters in a structure, i.e. with [`tDependencePar.m`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/tDependencePar.m) where  `in` struct is created to a data.
 
 
 ## Convergence algorithm
 
 
-Use `varCalc(in, tFactor) `to use fixed point iteration to find self-consistent SCOP for a particular temperature `tFactor` up to a maximum iteration `in.maxIterations`.
+Use [`varCalc(in, tFactor)`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/varCalc.m) to use fixed point iteration to find self-consistent SCOP for a particular temperature `tFactor` up to a maximum iteration `in.maxIterations`.
 
 
 ## Examples
 ### Temperature dependence
 
 
-One can sweep `varCalc()` over different temperature. Use `tDependencePar.m` to initialize and `tDependence.m` to iterate over the defined interval of temperature.
+One can sweep `varCalc()` over different temperature. Use `tDependencePar.m` to initialize and [`tDependence.m`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/tDependence.m) to iterate over the defined interval of temperature.
 
 
 
 
-Temperature dependence can be fitted with the theoretical gap equation through `gapEquation(T,MaxGap,Tc)` where `MaxGap` and `Tc` are the fitting parameters :
+Temperature dependence can be fitted with the theoretical gap equation through [`gapEquation(T,MaxGap,Tc)`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/gapEquation.m) where `MaxGap` and `Tc` are the fitting parameters :
 
 
 
@@ -138,7 +138,7 @@ its initial value is less than the value of the function tolerance.
 ### Order parameter time series
 
 
-For saving the history of the SCOP, we can use `vortexEvolution(filename_in,filename_out)`. This tracks the gap parameter for 20 evenly-divided intervals of iterations from the given maximum iterations. The parameters are initialized with `trackPar.m`.
+For saving the history of the SCOP, we can use [`vortexEvolution(filename_in,filename_out)`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/vortexEvolution.m). This tracks the gap parameter for 20 evenly-divided intervals of iterations from the given maximum iterations. The parameters are initialized with [`trackPar.m`](https://github.com/metersquared/SCInMagField/blob/main/selfconsistency/trackPar.m).
 
 
 
